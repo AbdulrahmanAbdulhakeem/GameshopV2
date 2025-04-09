@@ -1,0 +1,5 @@
+export {default as Home} from './Home'
+export {default as DetailsPage} from './DetailsPage'
+export {default as Store} from './Store'
+export {default as Search} from './Search'
+export {default as NotFound} from './NotFound'
