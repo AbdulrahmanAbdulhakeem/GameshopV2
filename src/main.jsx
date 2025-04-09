@@ -13,7 +13,7 @@ createRoot(document.getElementById('root')).render(
     <div className='bg-slate-900 h-screen w-full'>
 
       <GameProvider>
-        <Router>
+        <Router basename='/GameshopV2'>
           <Navbar />
           <Routes>
             <Route path='/' element={<App />} />
