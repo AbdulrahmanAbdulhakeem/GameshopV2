@@ -16,10 +16,10 @@ createRoot(document.getElementById('root')).render(
         <Router basename='/GameshopV2'>
           <Navbar />
           <Routes>
-            <Route path='/' element={<App />} />
-            <Route path='/details/:id' element={<DetailsPage />} />
-            <Route path='/store' element={<Store />} />
-            <Route path='/search/:name' element={<Search />} />
+            <Route path='#/' element={<App />} />
+            <Route path='#/details/:id' element={<DetailsPage />} />
+            <Route path='#/store' element={<Store />} />
+            <Route path='#/search/:name' element={<Search />} />
             <Route path='*' element={<NotFound />} />
           </Routes>
         </Router>
